@@ -5,11 +5,11 @@ const providers = {
   Tumblr:
     "https://www.tumblr.com/share/link?url={url}&name={title}&description={description}",
   LinkedIn:
-    "https://www.linkedin.com/shareArticle?mini=true&amp;url={url}&amp;title={title}&amp;summary={description}",
-  Reddit: "https://www.reddit.com/submit?url={url}&amp;title={title}",
-  StumbleUpon: "https://www.stumbleupon.com/submit?url={url}&amp;title={title}",
+    "https://www.linkedin.com/shareArticle?mini=true&url={url}&title={title}&summary={description}",
+  Reddit: "https://www.reddit.com/submit?url={url}&title={title}",
+  StumbleUpon: "https://www.stumbleupon.com/submit?url={url}&title={title}",
   Digg:
-    "https://digg.com/tools/diggthis/confirm?url={url}&amp;title={title}&amp;related=true&amp;style=true",
+    "https://digg.com/tools/diggthis/confirm?url={url}&title={title}&related=true&style=true",
   WhatsApp: function() {
     return global.innerWidth > 1024
       ? "https://web.whatsapp.com/send?text={title}%20{url}"
